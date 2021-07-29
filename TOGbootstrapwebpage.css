@@ -1,0 +1,167 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-brand img {
+    max-width: 200px;
+    height: 50px;
+}
+nav .nav-link {
+    padding: 0px 15px !important;
+}
+nav .nav-link:hover {
+    background-color: black;
+}
+.carousel-item:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    text-shadow: 2px 2px black;
+    color: rgb(235, 222, 222);
+}
+@media (max-width: 575px) {
+    .carousel-item .carousel-caption {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        font-size: 12px;
+        top: 10%;
+    }
+    .carousel-item .carousel-caption h5 {
+        font-size: 12px;
+    }
+}
+.welcome-div {
+    display: flex;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+    .container .welcome-div img {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    .welcome-div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .welcome h1 {
+        font-size: 20px;
+    }
+    .container .welcome-div img {
+        max-width: 450px;
+    }
+    .container .welcome-div p {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container .welcome-div img {
+        max-width: 300px;
+    }
+    .container .welcome-div p {
+        padding-left: 0px;
+    }
+}
+.welcome-div p {
+    text-align: justify;
+    padding-left: 20px;
+}
+#meet {
+    background-color: rgb(202, 173, 173);
+}
+@media (max-width: 410px) {
+    #meet h1 {
+        font-size: 25px;
+    }
+}
+.card-body {
+    padding: 5px;
+    background-color: rgb(237, 232, 240);
+    text-align: center;
+}
+.btndiv {
+    display: flex;
+    justify-content: center;
+}
+.btndiv button {
+    margin: 0px 0px 10px;
+    font-weight: 400;
+}
+#connect {
+    background-color: rgb(240, 233, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#connect h2 {
+    margin: 20px 0px;
+}
+@media (max-width: 410px) {
+    #connect h2 {
+        font-size: 25px;
+    }
+}
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px 0px;
+}
+.contact a {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease-out;
+}
+.contact a:hover {
+    transform: translateY(8px);
+}
+.fa-facebook-square {
+    color: royalblue;
+}
+.fa-github {
+    color: rgb(15, 15, 15);
+    font-size: 30px;
+}
+.fa-twitter {
+    color: rgb(66, 120, 221);
+    font-size: 30px;
+}
+.fa-codepen {
+    color: rgb(20, 20, 20);
+    font-size: 30px;
+}
+.fa-at {
+    color: rgb(211, 18, 18);
+    font-size: 30px;
+}
+.fa-whatsapp {
+    color: green;
+    font-size: 30px;
+}
+footer {
+    padding: 20px 0px;
+    background-color: rgb(131, 131, 216);
+    text-align: center;
+}
+footer p {
+    padding-top: 10px;
+}
+@media (max-width: 410px) {
+    footer h5 {
+        font-size: 16px;
+    }
+}
